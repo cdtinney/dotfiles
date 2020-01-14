@@ -12,3 +12,6 @@ export PS1="\\$\[\e[35m\]\u\[\e[m\] [\w] "
 # Git
 alias gs='git status'
 alias gp='git push'
+
+# Chrome
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
