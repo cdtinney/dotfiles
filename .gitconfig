@@ -16,7 +16,7 @@
   dw = diff --word-diff
   f = "!git ls-files | grep -i"
   fl = log -u
-	fr = !sh -c 'git fetch origin master && git rebase origin/master'
+  fr = !sh -c 'git fetch origin master && git rebase origin/master'
   last = log -1 HEAD
   la = "!git config -l | grep alias | cut -c 7-"
   lc = "!f() { git ll "$1"^.."$1"; }; f"
@@ -31,7 +31,7 @@
   lss = log --pretty=short --decorate
   lsoneline = log --oneline --decorate
   meld = difftool --dir-diff
-	rbc = !sh -c 'git rebase --continue'
+  rbc = !sh -c 'git rebase --continue'
   s = status
   sa = stash apply
   sl = stash list
