@@ -1,12 +1,12 @@
 [alias]
   aa = add --all
   br = branch
-	caap = !sh -c 'git commit -a --amend --no-edit && git push -f' 
-	cap = !sh -c 'git commit --amend --no-edit && git push -f' 
+  caap = !sh -c 'git commit -a --amend --no-edit && git push -f' 
+  cap = !sh -c 'git commit --amend --no-edit && git push -f' 
   ci = commit
   cl = clone
   co = checkout
-	com = !sh -c 'git checkout master && git pull origin master'
+  com = !sh -c 'git checkout master && git pull origin master'
   cp = cherry-pick
   dc = diff --cached
   df = diff
